@@ -10,12 +10,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/demo.css">
+        <link rel="stylesheet" type="text/css" href="/naoko/css/demo.css">
         <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
         <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
         <script type="text/javascript" src="../plugin/ttw-music-player-min.js"></script>
         <script type="text/javascript" src="js/myplaylist.js"></script>
-        <canvas style="position:fixed; z-index:-1;" id="canvas"></canvas>
+        <canvas style="position:fixed;" id="canvas"></canvas>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('body').ttwMusicPlayer(myPlaylist, {
@@ -29,7 +29,7 @@
         <link rel="shortcut icon" href="../favicon.ico">
     </head>
 <body>
-    <script style="z-index:50000;position:relative;">
+    <script>
     window.onload = function(){
 	//canvas init
 	var canvas = document.getElementById("canvas");
